@@ -1,6 +1,7 @@
+import React from "react";
 function NestingOfJSX() {
   return (
-    <div>
+    <React.Fragment>
       <h3>React JS :</h3>
       <img
         src="./images/logo192.png"
@@ -9,7 +10,7 @@ function NestingOfJSX() {
         alt="imageLogo"
       />
       <p> React is a JavaScript library for creating User Interfaces.</p>
-    </div>
+    </React.Fragment>
   );
 }
 
