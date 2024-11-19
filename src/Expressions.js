@@ -1,6 +1,8 @@
 import React from "react";
 function Expressions() {
   let count = 5;
+  let x = 5;
+  let y = 10;
   let name = {
     firstName: "John",
     LastName: "Doe",
@@ -15,6 +17,8 @@ function Expressions() {
       <h5>Accessing Object</h5>
 
       <h4>{"My Name is " + name.firstName + " " + name.LastName}</h4>
+
+      <h3>{x+" < "+y+" : "+(x<y ? "True": "False")}</h3>
     </React.Fragment>
   );
 }
