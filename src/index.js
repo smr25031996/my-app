@@ -5,10 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Login from "./Login";
 import NestingOfJSX from "./NestingOfJSX";
+import Expressions from "./Expressions";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
+    <Expressions />,
     <App />,
     <Login />,
     <NestingOfJSX />
