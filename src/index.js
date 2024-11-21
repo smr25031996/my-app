@@ -6,10 +6,14 @@ import reportWebVitals from "./reportWebVitals";
 import Login from "./Login";
 import NestingOfJSX from "./NestingOfJSX";
 import Expressions from "./Expressions";
+import MapFunctionInJs from "./MapFunctionInJs";
+import ConditionalRendering from "./ConditionalRendering";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
+    <ConditionalRendering />
+    <MapFunctionInJs />
     <Expressions />,
     <App />,
     <Login />,
