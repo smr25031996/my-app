@@ -8,11 +8,13 @@ import NestingOfJSX from "./NestingOfJSX";
 import Expressions from "./Expressions";
 import MapFunctionInJs from "./MapFunctionInJs";
 import ConditionalRendering from "./ConditionalRendering";
+import StylingComponents from "./StylingComponents";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <ConditionalRendering />
+    <StylingComponents />
+    <ConditionalRendering />,
     <MapFunctionInJs />
     <Expressions />,
     <App />,
