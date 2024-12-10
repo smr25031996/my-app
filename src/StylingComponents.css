@@ -2,3 +2,8 @@
     background-color: blue;
     color: white;
 }
+
+#name {
+    background-color: yellowgreen;
+    font-style: italic;
+}

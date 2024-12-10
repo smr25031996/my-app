@@ -19,7 +19,9 @@ function StylingComponents() {
         Submit
       </button>
       <button className="btn btn-danger">BootStrap Button</button>
-    </div>    
+
+      <h1 id="name">Hi My Name Shubham</h1>
+    </div>
   );
 }
 
